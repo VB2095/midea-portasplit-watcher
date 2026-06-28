@@ -74,16 +74,23 @@ async function cycle(): Promise<void> {
     await dispatchAlert(cfg, newOffers);
   }
 
-  // Persiste l'ensemble courant (les offres disparues sortent de l'état =>
-  // elles re-déclencheront une alerte si elles réapparaissent).
-  await writeFile(
-    STATE_FILE,
-    JSON.stringify(
-      { updatedAt: new Date().toISOString(), knownKeys: currentKeys },
-      null,
-      2,
-    ),
-  );
+  // Persiste UNIQUEMENT si l'ensemble des offres a changé (évite le bruit de
+  // commits dans le cron cloud : pas d'écriture si rien ne bouge).
+  const curSet = new Set(currentKeys);
+  const changed =
+    currentKeys.length !== known.size ||
+    currentKeys.some((k) => !known.has(k)) ||
+    [...known].some((k) => !curSet.has(k));
+  if (changed) {
+    await writeFile(
+      STATE_FILE,
+      JSON.stringify(
+        { updatedAt: new Date().toISOString(), knownKeys: currentKeys },
+        null,
+        2,
+      ),
+    );
+  }
 }
 
 function parseInterval(argv: string[]): number {
