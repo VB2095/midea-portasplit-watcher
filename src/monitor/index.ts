@@ -117,16 +117,18 @@ async function main(): Promise<void> {
       {
         source: 'test',
         key: 'test-1',
-        label: 'TEST 1 — MegElectro 700€',
+        label: 'MegElectro 700€',
         url: 'https://megelectro.com/produit/midea-mmcs-12hrn8-qrd0-climatiseur-mobile/',
         price: 700,
+        risky: true, // petite boutique => titre "[A VERIFIER]"
       },
       {
         source: 'test',
         key: 'test-2',
-        label: 'TEST 2 — JBS 849,99€',
-        url: 'https://jbs-electromenager.com/products/climatiseur-mobile-midea-mmcs-12hrn8-qrd0',
-        price: 849.99,
+        label: 'Boulanger 999€',
+        url: 'https://www.boulanger.com/ref/1216685',
+        price: 999,
+        risky: false, // enseigne de confiance => titre "EN STOCK"
       },
     ]);
     console.log(`   ✅ Test envoyé. Vérifie ton téléphone / tes notifications.`);

@@ -55,15 +55,22 @@ function asciiHeader(s: string): string {
     .trim();
 }
 
-async function sendNtfy(cfg: AlertConfig, title: string, body: string, url: string): Promise<void> {
+async function sendNtfy(
+  cfg: AlertConfig,
+  title: string,
+  body: string,
+  url: string,
+  tags = 'rotating_light,snowflake',
+): Promise<void> {
   if (!cfg.ntfyTopic) return;
   const res = await fetch(`${cfg.ntfyServer}/${cfg.ntfyTopic}`, {
     method: 'POST',
     headers: {
-      // Le titre passe en header (ASCII) ; les emoji arrivent via Tags.
+      // Le titre passe en header (ASCII) ; les emoji arrivent via Tags
+      // (ntfy rend le nom de tag en emoji : "warning" => ⚠️).
       Title: asciiHeader(title) || 'Midea PortaSplit - EN STOCK',
       Priority: 'urgent',
-      Tags: 'rotating_light,snowflake',
+      Tags: tags,
       Click: url,
     },
     body, // le corps (UTF-8) garde les emoji/accents
@@ -123,17 +130,25 @@ export async function dispatchAlert(cfg: AlertConfig, offers: Offer[]): Promise<
   const tasks: Array<[string, Promise<void>]> = [];
   for (const [url, items] of groups) {
     const first = items[0]!;
-    // Titre = libellé du marchand (+ nb d'offres si plusieurs au même endroit).
-    const title =
-      items.length > 1 ? `🎉 ${first.label} (+${items.length - 1})` : `🎉 ${first.label}`;
+    const risky = items.some((o) => o.risky);
+    // L'avertissement est EXPLICITE dans le titre (texte ASCII qui survit au
+    // header ntfy) + tag "warning" (rendu ⚠️ par ntfy).
+    const prefix = risky ? '[A VERIFIER - vendeur peu connu] ' : 'EN STOCK ';
+    const extra = items.length > 1 ? ` (+${items.length - 1})` : '';
+    const title = `${risky ? '⚠️' : '🎉'} ${prefix}${first.label}${extra}`;
     const body =
-      items.length > 1
-        ? items.map((o) => `• ${o.label}`).join('\n') + '\n👉 Clique pour ouvrir'
-        : `${first.label}\n👉 Clique pour ouvrir et commander`;
+      (risky
+        ? '⚠️ Vendeur peu connu : vérifie avis + paie en CB/PayPal avant de commander.\n'
+        : '') +
+      (items.length > 1
+        ? items.map((o) => `• ${o.label}`).join('\n')
+        : first.label) +
+      '\n👉 Clique pour ouvrir';
+    const tags = risky ? 'warning' : 'rotating_light,snowflake';
 
     console.log(`   \x1b[32m→ ${title}\x1b[0m  \x1b[36m${url}\x1b[0m`);
 
-    tasks.push(['ntfy', sendNtfy(cfg, title, body, url)]);
+    tasks.push(['ntfy', sendNtfy(cfg, title, body, url, tags)]);
     tasks.push(['telegram', sendTelegram(cfg, `${title}\n${url}`, body)]);
     tasks.push(['webhook', sendWebhook(cfg, title, body, items)]);
     if (cfg.macos) tasks.push(['macOS', sendMacOS(title, body)]);

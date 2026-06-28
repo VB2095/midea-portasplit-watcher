@@ -27,6 +27,8 @@ export interface Offer {
   label: string; // texte lisible pour l'alerte
   url: string;
   price: number | null;
+  /** Vendeur peu connu / signal à confirmer => avertissement DANS le titre. */
+  risky?: boolean;
 }
 
 export interface ScanResult {

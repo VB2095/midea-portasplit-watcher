@@ -147,9 +147,10 @@ export async function scanShops(): Promise<ScanResult> {
       offers.push({
         source: 'shops',
         key: `shop:${r.shop.id}`,
-        label: `${r.shop.name}${price ? ` — ${price}€` : ''}${r.shop.verify ? ' (⚠️ vérifier le vendeur)' : ''}`,
+        label: `${r.shop.name}${price ? ` — ${price}€` : ''}`,
         url: r.shop.url,
         price,
+        risky: r.shop.verify, // petite boutique => avertissement dans le titre
       });
     }
   }
