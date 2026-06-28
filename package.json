@@ -1,0 +1,24 @@
+{
+  "name": "midea-portasplit-watcher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Surveille la disponibilité du climatiseur Midea PortaSplit (Optimea) chez les enseignes françaises",
+  "scripts": {
+    "check": "tsx src/cli.ts",
+    "check:all": "tsx src/cli.ts --browser",
+    "watch": "tsx src/cli.ts --watch",
+    "casto:stock": "tsx src/casto/sweep.ts",
+    "boulanger:stock": "tsx src/boulanger/sweep.ts",
+    "monitor": "tsx src/monitor/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

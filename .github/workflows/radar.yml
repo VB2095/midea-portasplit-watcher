@@ -1,0 +1,43 @@
+name: Radar Midea PortaSplit
+
+# Radar de réassort gratuit, dans le cloud (aucun PC requis).
+# Lance un cycle du monitor toutes les ~10 min et push sur mobile (ntfy).
+on:
+  schedule:
+    - cron: '*/10 * * * *' # toutes les 10 min (GitHub peut différer de quelques min)
+  workflow_dispatch: {} # bouton "Run workflow" manuel
+
+permissions:
+  contents: write # pour persister .monitor-state.json entre les runs
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --omit=optional
+      - name: Scan + alerte
+        run: npm run monitor -- --once
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          ALERT_MACOS: '0'
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+      - name: Persiste l'état (anti-spam)
+        run: |
+          if [[ -n "$(git status --porcelain .monitor-state.json)" ]]; then
+            git config user.name "radar-bot"
+            git config user.email "radar-bot@users.noreply.github.com"
+            git add .monitor-state.json
+            git commit -m "radar: update state [skip ci]"
+            git push
+          fi

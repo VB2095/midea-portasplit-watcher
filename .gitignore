@@ -1,0 +1,10 @@
+node_modules/
+.state.json
+.casto-stock.json
+.boulanger-stock.json
+*.log
+.DS_Store
+.env
+.env.local
+
+# .monitor-state.json est volontairement VERSIONNÉ (persistance d'état du radar cloud)
