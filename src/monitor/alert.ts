@@ -86,6 +86,10 @@ async function sendTelegram(
   url: string,
 ): Promise<void> {
   if (!cfg.telegramToken || !cfg.telegramChatId) return;
+  const linkedBody = body.replace(
+    '👉 Clique pour ouvrir/commander',
+    `👉 [Clique pour ouvrir/commander](${url})`,
+  );
   const res = await fetch(
     `https://api.telegram.org/bot${cfg.telegramToken}/sendMessage`,
     {
@@ -93,8 +97,7 @@ async function sendTelegram(
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({
         chat_id: cfg.telegramChatId,
-        // URL dans le corps (cliquable), pas dans le titre gras.
-        text: `*${title}*\n${body}\n${url}`,
+        text: `*${title}*\n${linkedBody}`,
         parse_mode: 'Markdown',
         disable_web_page_preview: true,
       }),
