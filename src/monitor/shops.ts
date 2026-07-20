@@ -39,13 +39,6 @@ const SHOPS: Shop[] = [
     verify: true,
   },
   {
-    id: 'jbs',
-    name: 'JBS Électroménager',
-    kind: 'shopify',
-    url: 'https://jbs-electromenager.com/products/climatiseur-mobile-midea-mmcs-12hrn8-qrd0',
-    verify: true,
-  },
-  {
     id: 'bruneau',
     name: 'Bruneau',
     kind: 'jsonld',
