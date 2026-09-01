@@ -1,8 +1,9 @@
 {
   "knownKeys": [
     "castorama:store:1454",
-    "boulanger:store:F885"
+    "boulanger:store:F885",
+    "shops:megelectro"
   ],
   "blind": false,
-  "updatedAt": "2026-09-01T21:58:01.070Z"
+  "updatedAt": "2026-09-01T22:01:52.372Z"
 }
