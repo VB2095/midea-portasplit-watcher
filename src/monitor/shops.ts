@@ -30,15 +30,6 @@ interface Shop {
 
 const SHOPS: Shop[] = [
   {
-    id: 'megelectro',
-    name: 'MegElectro',
-    kind: 'woocommerce',
-    base: 'https://megelectro.com',
-    search: 'MMCS-12HRN8',
-    url: 'https://megelectro.com/produit/midea-mmcs-12hrn8-qrd0-climatiseur-mobile/',
-    verify: true,
-  },
-  {
     id: 'bruneau',
     name: 'Bruneau',
     kind: 'jsonld',
