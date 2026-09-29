@@ -1,12 +1,21 @@
 {
   "knownKeys": [
     "castorama:store:1425",
+    "castorama:store:1409",
+    "castorama:store:1458",
     "castorama:store:1487",
+    "castorama:store:1508",
+    "castorama:store:1493",
+    "castorama:store:1501",
+    "castorama:store:1467",
+    "castorama:store:1439",
     "castorama:store:1411",
     "castorama:store:1504",
     "castorama:store:1446",
     "castorama:store:1463",
+    "castorama:store:1511",
     "castorama:store:1447",
+    "castorama:store:1484",
     "castorama:store:1444",
     "boulanger:store:F184",
     "boulanger:store:F173",
@@ -15,5 +24,5 @@
     "dealabs:3421366"
   ],
   "blind": false,
-  "updatedAt": "2026-09-29T01:49:22.586Z"
+  "updatedAt": "2026-09-29T02:53:05.940Z"
 }
