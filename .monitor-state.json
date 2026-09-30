@@ -2,6 +2,7 @@
   "knownKeys": [
     "castorama:store:1425",
     "castorama:store:1452",
+    "castorama:store:3062",
     "castorama:store:1457",
     "castorama:store:1409",
     "castorama:store:1493",
@@ -26,5 +27,5 @@
     "dealabs:3421862"
   ],
   "blind": false,
-  "updatedAt": "2026-09-30T12:16:09.413Z"
+  "updatedAt": "2026-09-30T12:32:11.318Z"
 }
