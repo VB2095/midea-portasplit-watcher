@@ -1,10 +1,14 @@
 {
   "knownKeys": [
+    "castorama:store:1430",
+    "castorama:store:1412",
     "castorama:store:1510",
+    "castorama:store:1513",
     "castorama:store:3062",
     "castorama:store:1457",
     "castorama:store:1409",
     "castorama:store:1473",
+    "castorama:store:1479",
     "castorama:store:1422",
     "castorama:store:1455",
     "castorama:store:1493",
@@ -16,10 +20,14 @@
     "castorama:store:1435",
     "castorama:store:1442",
     "castorama:store:1504",
+    "castorama:store:1431",
+    "castorama:store:1450",
+    "castorama:store:1502",
     "castorama:store:1463",
     "castorama:store:1481",
     "castorama:store:1512",
     "castorama:store:1511",
+    "castorama:store:1418",
     "castorama:store:1447",
     "castorama:store:1484",
     "castorama:store:1444",
@@ -31,5 +39,5 @@
     "dealabs:3421862"
   ],
   "blind": false,
-  "updatedAt": "2026-10-01T16:25:47.812Z"
+  "updatedAt": "2026-10-02T02:39:41.298Z"
 }
