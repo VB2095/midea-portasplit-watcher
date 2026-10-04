@@ -34,7 +34,6 @@
     "castorama:store:1444",
     "boulanger:store:F122",
     "boulanger:store:F159",
-    "boulanger:store:F522",
     "boulanger:store:F127",
     "boulanger:store:F757",
     "boulanger:store:F332",
@@ -65,5 +64,5 @@
     "dealabs:3421862"
   ],
   "blind": false,
-  "updatedAt": "2026-10-04T05:19:32.192Z"
+  "updatedAt": "2026-10-04T09:41:57.329Z"
 }
