@@ -42,7 +42,6 @@
     "boulanger:store:F222",
     "boulanger:store:F213",
     "boulanger:store:F300",
-    "boulanger:store:F244",
     "boulanger:store:F209",
     "boulanger:store:F257",
     "boulanger:store:F314",
@@ -61,5 +60,5 @@
     "dealabs:3421862"
   ],
   "blind": false,
-  "updatedAt": "2026-10-06T12:27:59.387Z"
+  "updatedAt": "2026-10-06T12:41:02.358Z"
 }
