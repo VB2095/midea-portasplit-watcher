@@ -44,9 +44,10 @@
     "boulanger:store:F322",
     "boulanger:store:F332",
     "boulanger:store:F524",
-    "boulanger:store:F147",
+    "boulanger:store:F307",
     "boulanger:store:F334",
     "boulanger:store:F542",
+    "boulanger:store:F147",
     "boulanger:store:F338",
     "boulanger:store:F222",
     "boulanger:store:F213",
@@ -56,7 +57,6 @@
     "boulanger:store:F325",
     "boulanger:store:F537",
     "boulanger:store:F126",
-    "boulanger:store:F287",
     "boulanger:store:F260",
     "boulanger:store:F275",
     "boulanger:store:F274",
@@ -65,9 +65,10 @@
     "boulanger:store:F321",
     "boulanger:store:F276",
     "boulanger:store:F327",
+    "boulanger:store:F287",
     "manomano:offer",
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-08T02:26:27.149Z"
+  "updatedAt": "2026-10-08T06:41:37.945Z"
 }
