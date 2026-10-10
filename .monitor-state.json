@@ -1,5 +1,13 @@
 {
   "knownKeys": [
+    "castorama:store:1410",
+    "castorama:store:1447",
+    "castorama:store:1474",
+    "castorama:store:1484",
+    "castorama:store:1434",
+    "castorama:store:1429",
+    "castorama:store:1498",
+    "castorama:store:1485",
     "boulanger:store:F127",
     "boulanger:store:F757",
     "boulanger:store:F524",
@@ -29,5 +37,5 @@
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-09T22:32:56.163Z"
+  "updatedAt": "2026-10-10T00:16:46.679Z"
 }
