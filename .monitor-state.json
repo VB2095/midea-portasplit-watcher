@@ -1,9 +1,30 @@
 {
   "knownKeys": [
+    "castorama:store:1412",
+    "castorama:store:1468",
+    "castorama:store:3062",
+    "castorama:store:1457",
+    "castorama:store:1440",
+    "castorama:store:1473",
+    "castorama:store:1479",
+    "castorama:store:1420",
+    "castorama:store:1501",
+    "castorama:store:1465",
+    "castorama:store:3061",
+    "castorama:store:1439",
+    "castorama:store:1471",
+    "castorama:store:1476",
+    "castorama:store:1435",
+    "castorama:store:1446",
+    "castorama:store:1432",
+    "castorama:store:1482",
+    "castorama:store:1441",
+    "castorama:store:1511",
     "castorama:store:1410",
     "castorama:store:1447",
     "castorama:store:1474",
     "castorama:store:1484",
+    "castorama:store:1444",
     "castorama:store:1434",
     "castorama:store:1429",
     "castorama:store:1498",
@@ -37,5 +58,5 @@
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-10T00:16:46.679Z"
+  "updatedAt": "2026-10-10T00:20:38.919Z"
 }
