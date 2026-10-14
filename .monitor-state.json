@@ -2,7 +2,6 @@
   "knownKeys": [
     "castorama:delivery",
     "castorama:store:1456",
-    "castorama:store:1412",
     "castorama:store:1437",
     "castorama:store:1468",
     "castorama:store:1513",
@@ -49,6 +48,7 @@
     "castorama:store:1474",
     "castorama:store:1444",
     "castorama:store:1434",
+    "castorama:store:1461",
     "castorama:store:1498",
     "castorama:store:1485",
     "boulanger:store:F224",
@@ -79,5 +79,5 @@
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-14T05:35:09.322Z"
+  "updatedAt": "2026-10-14T05:52:22.028Z"
 }
