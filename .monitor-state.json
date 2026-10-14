@@ -6,6 +6,7 @@
     "castorama:store:1456",
     "castorama:store:1452",
     "castorama:store:1470",
+    "castorama:store:1424",
     "castorama:store:1427",
     "castorama:store:1510",
     "castorama:store:1414",
@@ -34,6 +35,7 @@
     "castorama:store:1469",
     "castorama:store:1465",
     "castorama:store:1507",
+    "castorama:store:1466",
     "castorama:store:3061",
     "castorama:store:1415",
     "castorama:store:2537",
@@ -107,5 +109,5 @@
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-14T15:27:50.616Z"
+  "updatedAt": "2026-10-14T16:03:23.997Z"
 }
