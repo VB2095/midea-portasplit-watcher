@@ -4,6 +4,7 @@
     "castorama:store:1412",
     "castorama:store:1437",
     "castorama:store:1468",
+    "castorama:store:1513",
     "castorama:store:3062",
     "castorama:store:1457",
     "castorama:store:1409",
@@ -16,6 +17,7 @@
     "castorama:store:1483",
     "castorama:store:1501",
     "castorama:store:1467",
+    "castorama:store:1469",
     "castorama:store:1465",
     "castorama:store:3061",
     "castorama:store:2537",
@@ -23,6 +25,7 @@
     "castorama:store:1471",
     "castorama:store:1476",
     "castorama:store:1435",
+    "castorama:store:1442",
     "castorama:store:1446",
     "castorama:store:1419",
     "castorama:store:1509",
@@ -30,11 +33,13 @@
     "castorama:store:1450",
     "castorama:store:1502",
     "castorama:store:1443",
+    "castorama:store:1445",
     "castorama:store:1481",
     "castorama:store:1433",
     "castorama:store:1448",
     "castorama:store:1512",
     "castorama:store:1511",
+    "castorama:store:1418",
     "castorama:store:1410",
     "castorama:store:1444",
     "castorama:store:1434",
@@ -68,5 +73,5 @@
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-13T17:34:18.917Z"
+  "updatedAt": "2026-10-14T02:30:54.868Z"
 }
