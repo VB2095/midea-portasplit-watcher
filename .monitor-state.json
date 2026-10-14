@@ -1,6 +1,7 @@
 {
   "knownKeys": [
     "castorama:delivery",
+    "castorama:store:1456",
     "castorama:store:1412",
     "castorama:store:1437",
     "castorama:store:1468",
@@ -76,5 +77,5 @@
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-14T05:07:46.834Z"
+  "updatedAt": "2026-10-14T05:18:12.830Z"
 }
