@@ -32,12 +32,14 @@
     "castorama:store:1493",
     "castorama:store:1483",
     "castorama:store:1420",
+    "castorama:store:1501",
     "castorama:store:1467",
     "castorama:store:1459",
     "castorama:store:1469",
     "castorama:store:1507",
     "castorama:store:1466",
     "castorama:store:1415",
+    "castorama:store:1439",
     "castorama:store:2537",
     "castorama:store:1500",
     "castorama:store:1411",
@@ -57,6 +59,7 @@
     "castorama:store:1482",
     "castorama:store:1450",
     "castorama:store:1426",
+    "castorama:store:1502",
     "castorama:store:1478",
     "castorama:store:1443",
     "castorama:store:1463",
@@ -115,5 +118,5 @@
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-15T23:09:45.301Z"
+  "updatedAt": "2026-10-16T02:26:29.273Z"
 }
