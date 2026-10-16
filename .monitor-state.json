@@ -4,8 +4,10 @@
     "castorama:store:1436",
     "castorama:store:1430",
     "castorama:store:1425",
+    "castorama:store:1456",
     "castorama:store:1412",
     "castorama:store:1452",
+    "castorama:store:1470",
     "castorama:store:1424",
     "castorama:store:1427",
     "castorama:store:1510",
@@ -105,11 +107,11 @@
     "boulanger:store:F274",
     "boulanger:store:F713",
     "manomano:offer",
-    "dealabs:3432781",
     "dealabs:3433008",
+    "dealabs:3432781",
     "dealabs:3432139",
     "dealabs:3425118"
   ],
   "blind": false,
-  "updatedAt": "2026-10-16T19:54:45.024Z"
+  "updatedAt": "2026-10-16T20:11:41.401Z"
 }
