@@ -17,7 +17,6 @@
     "castorama:store:1487",
     "castorama:store:1479",
     "castorama:store:1486",
-    "castorama:store:1508",
     "castorama:store:1483",
     "castorama:store:1467",
     "castorama:store:1459",
@@ -28,14 +27,10 @@
     "castorama:store:1500",
     "castorama:store:1471",
     "castorama:store:1476",
-    "castorama:store:1435",
     "castorama:store:1442",
-    "castorama:store:1480",
     "castorama:store:1504",
     "castorama:store:1446",
     "castorama:store:1419",
-    "castorama:store:1509",
-    "castorama:store:1438",
     "castorama:store:1431",
     "castorama:store:1450",
     "castorama:store:1426",
@@ -88,5 +83,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-10-28T15:32:00.785Z"
+  "updatedAt": "2026-10-28T16:57:45.271Z"
 }
