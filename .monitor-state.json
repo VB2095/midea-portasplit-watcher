@@ -79,7 +79,6 @@
     "boulanger:store:F123",
     "boulanger:store:F260",
     "boulanger:store:F321",
-    "boulanger:store:F275",
     "boulanger:store:F274",
     "boulanger:store:F713",
     "dealabs:3437936",
@@ -89,5 +88,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-10-28T09:00:09.029Z"
+  "updatedAt": "2026-10-28T13:45:49.121Z"
 }
