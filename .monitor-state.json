@@ -11,13 +11,16 @@
     "castorama:store:1437",
     "castorama:store:1468",
     "castorama:store:1513",
+    "castorama:store:3062",
     "castorama:store:1454",
+    "castorama:store:1440",
     "castorama:store:1497",
     "castorama:store:1483",
     "castorama:store:1501",
     "castorama:store:1467",
     "castorama:store:1459",
     "castorama:store:1469",
+    "castorama:store:1465",
     "castorama:store:1507",
     "castorama:store:1466",
     "castorama:store:1415",
@@ -33,6 +36,7 @@
     "castorama:store:1419",
     "castorama:store:1509",
     "castorama:store:1438",
+    "castorama:store:1431",
     "castorama:store:1450",
     "castorama:store:1443",
     "castorama:store:1463",
@@ -43,7 +47,9 @@
     "castorama:store:1512",
     "castorama:store:1511",
     "castorama:store:1475",
+    "castorama:store:1477",
     "castorama:store:1418",
+    "castorama:store:1417",
     "castorama:store:1447",
     "castorama:store:1474",
     "castorama:store:1484",
@@ -78,5 +84,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-10-30T21:24:09.156Z"
+  "updatedAt": "2026-10-31T03:32:53.487Z"
 }
