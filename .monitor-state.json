@@ -1,7 +1,6 @@
 {
   "knownKeys": [
     "castorama:delivery",
-    "castorama:store:1425",
     "castorama:store:1456",
     "castorama:store:1470",
     "castorama:store:1424",
@@ -81,5 +80,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-11-02T11:31:46.972Z"
+  "updatedAt": "2026-11-02T12:25:02.827Z"
 }
