@@ -2,20 +2,12 @@
   "knownKeys": [
     "castorama:delivery",
     "castorama:store:1436",
-    "castorama:store:1430",
     "castorama:store:1425",
     "castorama:store:1456",
-    "castorama:store:1412",
     "castorama:store:1470",
-    "castorama:store:1424",
-    "castorama:store:1427",
     "castorama:store:1510",
-    "castorama:store:1414",
-    "castorama:store:1437",
-    "castorama:store:1468",
     "castorama:store:1513",
     "castorama:store:3062",
-    "castorama:store:1460",
     "castorama:store:1454",
     "castorama:store:1486",
     "castorama:store:1455",
@@ -86,5 +78,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-11-08T16:47:15.719Z"
+  "updatedAt": "2026-11-09T11:03:06.260Z"
 }
