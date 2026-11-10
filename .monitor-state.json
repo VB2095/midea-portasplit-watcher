@@ -66,13 +66,12 @@
     "boulanger:store:F118",
     "boulanger:store:F267",
     "boulanger:store:F271",
-    "boulanger:store:F714",
     "boulanger:store:F325",
     "boulanger:store:F205",
     "boulanger:store:F270",
     "boulanger:store:F260",
-    "boulanger:store:F102",
     "boulanger:store:F126",
+    "boulanger:store:F102",
     "boulanger:store:F327",
     "boulanger:store:F276",
     "boulanger:store:F321",
@@ -86,5 +85,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-11-10T09:24:16.632Z"
+  "updatedAt": "2026-11-10T09:55:32.719Z"
 }
