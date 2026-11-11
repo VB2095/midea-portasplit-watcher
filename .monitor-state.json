@@ -3,9 +3,11 @@
     "castorama:delivery",
     "castorama:store:1436",
     "castorama:store:1430",
+    "castorama:store:1425",
     "castorama:store:1456",
     "castorama:store:1412",
     "castorama:store:1470",
+    "castorama:store:1424",
     "castorama:store:1427",
     "castorama:store:1510",
     "castorama:store:1414",
@@ -81,5 +83,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-11-11T00:33:56.582Z"
+  "updatedAt": "2026-11-11T00:51:58.115Z"
 }
