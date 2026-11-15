@@ -56,11 +56,23 @@
     "castorama:store:1429",
     "castorama:store:1461",
     "castorama:store:1485",
+    "boulanger:store:F185",
+    "boulanger:store:F118",
+    "boulanger:store:F153",
+    "boulanger:store:F267",
+    "boulanger:store:F325",
+    "boulanger:store:F270",
+    "boulanger:store:F260",
+    "boulanger:store:F123",
+    "boulanger:store:F321",
+    "boulanger:store:F327",
+    "boulanger:store:F274",
+    "boulanger:store:F713",
     "dealabs:3453451",
     "dealabs:3437936",
     "dealabs:3425118",
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-11-15T13:18:00.857Z"
+  "updatedAt": "2026-11-15T13:21:28.577Z"
 }
