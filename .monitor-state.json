@@ -44,10 +44,12 @@
     "castorama:store:1475",
     "castorama:store:1477",
     "castorama:store:1418",
+    "castorama:store:1417",
     "castorama:store:1447",
     "castorama:store:1474",
     "castorama:store:1484",
     "castorama:store:1444",
+    "castorama:store:1434",
     "castorama:store:1429",
     "castorama:store:1461",
     "castorama:store:1485",
@@ -66,5 +68,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-11-18T17:56:53.550Z"
+  "updatedAt": "2026-11-18T17:59:57.100Z"
 }
