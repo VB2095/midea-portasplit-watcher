@@ -43,6 +43,7 @@
     "castorama:store:1461",
     "boulanger:store:F100",
     "boulanger:store:F118",
+    "boulanger:store:F322",
     "boulanger:store:F260",
     "boulanger:store:F123",
     "boulanger:store:F321",
@@ -53,5 +54,5 @@
     "manomano:offer"
   ],
   "blind": false,
-  "updatedAt": "2026-11-26T15:24:49.275Z"
+  "updatedAt": "2026-11-26T18:26:47.019Z"
 }
